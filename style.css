@@ -45,7 +45,7 @@ p {
         you can also change the color of the text in your
         navigation bar below! 
     */
-    color: #f198c2;
+    color: #D6AAA1;
     text-decoration: none;
     font-size: 30px;
     text-align: center;
@@ -57,14 +57,14 @@ p {
         this will change the color of the text in your nav bar
         when you hover over it. test it out!
     */
-    color: #A46971;
+    color: #7393B3;
 }
 
 .projectBox {
     /*
         change the color of the box behind your project boxes below!
     */
-    background-color: #FFE0E4; 
+    background-color: #B83B4A; 
     padding: 10px;
     margin: 50px;
     overflow-wrap: break-word;
