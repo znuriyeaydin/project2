@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, p, ol, ul, a {
+    margin: 20px;
+    font-weight: normal;
+}
+
+ /* 
+    you can change the color of your text below!
+ */
+p {
+    color: black;
+}
+
+.mainHeading {
+    text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: sticky;
+    height: 10%;
+    width: 100%;
+    background-color: #FFE0E4; /* change the color here of the nav bar here! */
+    overflow: auto;
+    display: flex;
+    padding: 10px 0;
+    justify-content: flex-end;
+}
+
+.navbar a {
+    margin: 0;
+    /* 
+        you can also change the color of the text in your
+        navigation bar below! 
+    */
+    color: #f198c2;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 12px;
+}
+
+.navbar a:hover {
+    /* 
+        this will change the color of the text in your nav bar
+        when you hover over it. test it out!
+    */
+    color: #A46971;
+}
+
+.projectBox {
+    /*
+        change the color of the box behind your project boxes below!
+    */
+    background-color: #FFE0E4; 
+    padding: 10px;
+    margin: 50px;
+    overflow-wrap: break-word;
+}
+
+#aboutMePhotoDiv {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#aboutMePhoto {
+    width: 50%;
+
+    margin: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: 10%;
+  }
+  .navbar a {
+    font-size: 1.2em;
+  }
+
+}
