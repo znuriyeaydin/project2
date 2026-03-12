@@ -103,3 +103,7 @@ button {
   border-radius: 6px; /* roundness of the button */
   cursor: pointer; 
 }
+
+.centerButton {
+  text-align: center;
+}
