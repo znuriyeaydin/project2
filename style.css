@@ -89,3 +89,12 @@ p {
   }
 
 }
+
+button {
+  background-color: white; /* color of the button itself */
+  color: black; /* color of text inside the button */
+  padding: 10px 16px; /* change this to see what happens! (relates to size) */
+  border: none; /* hey we learned abt this last week! */
+  border-radius: 6px; /* roundness of the button */
+  cursor: pointer; 
+}
