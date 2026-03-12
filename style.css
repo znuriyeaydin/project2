@@ -9,8 +9,13 @@ html, body {
 h1, h2, h3, p, ol, ul, a {
     margin: 20px;
     font-weight: normal;
+
+    
 }
 
+.centerHeading {
+  text-align: center;
+}
  /* 
     you can change the color of your text below!
  */
